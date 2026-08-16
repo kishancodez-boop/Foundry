@@ -216,10 +216,9 @@
 # url = f"https://newsapi.org/v2/everything?{query}&from=2026-01-23&sortBy=publishedAt&apiKey=API_KEY"
 # r = requests.get(url)
 # news = json.loads(r.text)
-# print(news.type(news))
+# print(news.type(news)
 
-a=[1,"2",3,4,5,6]
-b=[7,8,"9",0]
-a.extend(b)
 
-print(a)
+a={"name":123,"vdwwr":234,"etgbv":765}
+for key,values in a.items():
+    print(key,values)
